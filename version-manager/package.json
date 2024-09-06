@@ -21,10 +21,10 @@
   "author": "tks18",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.21.1",
+    "axios": "^1.6.8",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
     "dotenv": "^10.0.0",
-    "yargs": "^17.0.1"
+    "yargs": "^17.6.0"
   }
 }
