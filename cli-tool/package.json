@@ -28,19 +28,19 @@
   "homepage": "https://github.com/tks18/gindex-v4#readme",
   "dependencies": {
     "axios": "^0.21.0",
-    "boxen": "^4.2.0",
+    "boxen": "^6.2.1",
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
-    "clipboardy": "^2.3.0",
+    "clipboardy": "^3.0.0",
     "clui": "^0.3.6",
-    "conf": "^7.1.2",
+    "conf": "^12.0.0",
     "email-prompt": "^0.3.2",
     "enquirer": "^2.3.6",
     "execa": "^4.1.0",
     "figlet": "^1.5.0",
     "open": "^7.3.0",
     "tmp": "^0.2.1",
-    "unzipper": "^0.10.11",
-    "yargs": "^16.1.1"
+    "unzipper": "^0.12.1",
+    "yargs": "^17.6.0"
   }
 }
