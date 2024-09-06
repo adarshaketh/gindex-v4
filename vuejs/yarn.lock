@@ -2,7 +2,7 @@
 # Manual changes might be lost - proceed with caution!
 
 __metadata:
-  version: 4
+  version: 5
   cacheKey: 7
 
 "@ant-design-vue/babel-helper-vue-transform-on@npm:^1.0.0":
@@ -53,7 +53,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.14.6, @babel/core@npm:^7.11.0, @babel/core@npm:^7.14.6, @babel/core@npm:^7.9.6":
+"@babel/core@npm:^7.11.0, @babel/core@npm:^7.14.6, @babel/core@npm:^7.9.6":
   version: 7.14.6
   resolution: "@babel/core@npm:7.14.6"
   dependencies:
@@ -1341,6 +1341,89 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@codemirror/autocomplete@npm:^6.0.0":
+  version: 6.18.0
+  resolution: "@codemirror/autocomplete@npm:6.18.0"
+  dependencies:
+    "@codemirror/language": ^6.0.0
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.17.0
+    "@lezer/common": ^1.0.0
+  peerDependencies:
+    "@codemirror/language": ^6.0.0
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+    "@lezer/common": ^1.0.0
+  checksum: 8/806163d13be3e86f5eceb46768329955f48935e228e238c2b8ae7ebe0b6634b5fe90fc5eeb6df81acb1e9e6e5a84e136f14233459d4bcfea2f3dd8a45ae84f37
+  languageName: node
+  linkType: hard
+
+"@codemirror/commands@npm:6.x, @codemirror/commands@npm:^6.0.0":
+  version: 6.6.1
+  resolution: "@codemirror/commands@npm:6.6.1"
+  dependencies:
+    "@codemirror/language": ^6.0.0
+    "@codemirror/state": ^6.4.0
+    "@codemirror/view": ^6.27.0
+    "@lezer/common": ^1.1.0
+  checksum: 8/102cb14f1183eb33f6469148121912863264e281ba22b317915c8e883109d9522f0aa932c5315711a1ecf611fa7894552d6f8604688ca76c7af24d0db83df590
+  languageName: node
+  linkType: hard
+
+"@codemirror/language@npm:6.x, @codemirror/language@npm:^6.0.0":
+  version: 6.10.2
+  resolution: "@codemirror/language@npm:6.10.2"
+  dependencies:
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.23.0
+    "@lezer/common": ^1.1.0
+    "@lezer/highlight": ^1.0.0
+    "@lezer/lr": ^1.0.0
+    style-mod: ^4.0.0
+  checksum: 8/4e60afb75fb56519f59d9d85e0aa03f0c8d017e0da0f3f8f321baf35a776801fcec9787f3d0c029eba12aa766fba98b0fe86fc3111b43e0812b554184c0e8d67
+  languageName: node
+  linkType: hard
+
+"@codemirror/lint@npm:^6.0.0":
+  version: 6.8.1
+  resolution: "@codemirror/lint@npm:6.8.1"
+  dependencies:
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+    crelt: ^1.0.5
+  checksum: 8/faa222b679770baf094ea707251e27d6eef347157006223c22d7726fb5adc9d77257f36c366367ec729cb6286aca3276d30a470e0d0ea9a884ec948e798668e9
+  languageName: node
+  linkType: hard
+
+"@codemirror/search@npm:^6.0.0":
+  version: 6.5.6
+  resolution: "@codemirror/search@npm:6.5.6"
+  dependencies:
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+    crelt: ^1.0.5
+  checksum: 8/19dc88d09fc750563347001e83c6194bbb2a25c874bd919d2d81809e1f98d6330222ddbd284aa9758a09eeb41fd153ec7c2cf810b2ee51452c25963d7f5833d5
+  languageName: node
+  linkType: hard
+
+"@codemirror/state@npm:6.x, @codemirror/state@npm:^6.0.0, @codemirror/state@npm:^6.4.0":
+  version: 6.4.1
+  resolution: "@codemirror/state@npm:6.4.1"
+  checksum: 8/b81b55574091349eed4d32fc0eadb0c9688f1f7c98b681318f59138ee0f527cb4c4a97831b70547c0640f02f3127647838ae6730782de4a3dd2cc58836125d01
+  languageName: node
+  linkType: hard
+
+"@codemirror/view@npm:6.x, @codemirror/view@npm:^6.0.0, @codemirror/view@npm:^6.17.0, @codemirror/view@npm:^6.23.0, @codemirror/view@npm:^6.27.0":
+  version: 6.33.0
+  resolution: "@codemirror/view@npm:6.33.0"
+  dependencies:
+    "@codemirror/state": ^6.4.0
+    style-mod: ^4.1.0
+    w3c-keyname: ^2.2.4
+  checksum: 8/e28896a7fb40df8e7221fbebfc2cd92c10c6963948e20f3a4300e99c897fbddd091f4fc90cc30eeaf90d07c61dcf6170cd3c164810606fa07337ffb970ffdac2
+  languageName: node
+  linkType: hard
+
 "@eslint/eslintrc@npm:^0.4.2":
   version: 0.4.2
   resolution: "@eslint/eslintrc@npm:0.4.2"
@@ -1433,6 +1516,31 @@ __metadata:
   version: 5.3.0
   resolution: "@javascript-obfuscator/estraverse@npm:5.3.0"
   checksum: 2fd55d72c5080903a3f1a7cba1a115adb8c01cd7f9780171b10c089822cb622fccb25b5d0c1e23cc1cabdbcd24f5538823cf2044ba5b42f96eb36eb3ef501537
+  languageName: node
+  linkType: hard
+
+"@lezer/common@npm:^1.0.0, @lezer/common@npm:^1.1.0":
+  version: 1.2.1
+  resolution: "@lezer/common@npm:1.2.1"
+  checksum: 8/0bd092e293a509ce334f4aaf9a4d4a25528f743cd9d7e7948c697e34ac703b805b288b62ad01563488fb206fc34ff05084f7fc5d864be775924b3d0d53ea5dd2
+  languageName: node
+  linkType: hard
+
+"@lezer/highlight@npm:^1.0.0":
+  version: 1.2.1
+  resolution: "@lezer/highlight@npm:1.2.1"
+  dependencies:
+    "@lezer/common": ^1.0.0
+  checksum: 8/a8822d7e37f79ff64669eb2df4a9f9d16580e88f2b276a646092e19a9bdccac304e92510e200e35869a8b1f6c27eba5972c508d347a277e9b722d582ab7a23d5
+  languageName: node
+  linkType: hard
+
+"@lezer/lr@npm:^1.0.0":
+  version: 1.4.2
+  resolution: "@lezer/lr@npm:1.4.2"
+  dependencies:
+    "@lezer/common": ^1.0.0
+  checksum: 8/94318ad046c7dfcc8d37e26cb85b99623c39aef60aa51ec2abb30928e7a649f38fa5520f34bd5b356f1db11b6991999589f039e87c8949b0f163be3764f029d8
   languageName: node
   linkType: hard
 
@@ -3922,10 +4030,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"codemirror@npm:^5.41.0":
-  version: 5.57.0
-  resolution: "codemirror@npm:5.57.0"
-  checksum: 5e1c9da21da9c24b388325e67d8d9a1c75446a9d1230a7e475c5d2ae3ee38b5b2b200a7a1ee2e7204f76ffc3566b7dbb9500a384653312a12c707bcc6f58690d
+"codemirror@npm:6.x":
+  version: 6.0.1
+  resolution: "codemirror@npm:6.0.1"
+  dependencies:
+    "@codemirror/autocomplete": ^6.0.0
+    "@codemirror/commands": ^6.0.0
+    "@codemirror/language": ^6.0.0
+    "@codemirror/lint": ^6.0.0
+    "@codemirror/search": ^6.0.0
+    "@codemirror/state": ^6.0.0
+    "@codemirror/view": ^6.0.0
+  checksum: 8/1a78f7077ac5801bdbff162aa0c61bf2b974603c7e9a477198c3ce50c789af674a061d7c293c58b73807eda345c2b5228c38ad2aabb9319d552d5486f785cbef
   languageName: node
   linkType: hard
 
@@ -4341,6 +4457,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"crelt@npm:^1.0.5":
+  version: 1.0.6
+  resolution: "crelt@npm:1.0.6"
+  checksum: 8/dad842093371ad702afbc0531bfca2b0a8dd920b23a42f26e66dabbed9aad9acd5b9030496359545ef3937c3aced0fd4ac39f7a2d280a23ddf9eb7fdcb94a69f
+  languageName: node
+  linkType: hard
+
 "cross-spawn@npm:^5.0.1":
   version: 5.1.0
   resolution: "cross-spawn@npm:5.1.0"
@@ -4632,6 +4755,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"csstype@npm:^2.6.8":
+  version: 2.6.21
+  resolution: "csstype@npm:2.6.21"
+  checksum: 8/2ce8bc832375146eccdf6115a1f8565a27015b74cce197c35103b4494955e9516b246140425ad24103864076aa3e1257ac9bab25a06c8d931dd87a6428c9dccf
+  languageName: node
+  linkType: hard
+
 "currently-unhandled@npm:^0.4.1":
   version: 0.4.1
   resolution: "currently-unhandled@npm:0.4.1"
@@ -4913,13 +5043,6 @@ __metadata:
   version: 2.0.4
   resolution: "detect-node@npm:2.0.4"
   checksum: e7648a5a91dd5e91838d14f0e9631f2adf0117cc271ea86d8ce394a8fbe8fc7545755c8261faaf4b1e196795a10da99e5d5f1013163ba0f6260a57b0ba29cc60
-  languageName: node
-  linkType: hard
-
-"diff-match-patch@npm:^1.0.0":
-  version: 1.0.5
-  resolution: "diff-match-patch@npm:1.0.5"
-  checksum: 4694f40dbfd725e6ceaaa94c4779b60ceaf2d3b382229118310154d469f983d665ecfddae3c5c402bc5bb51930db63a1d27bd30c5d91e38de13f9d8054f2f4ae
   languageName: node
   linkType: hard
 
@@ -6365,25 +6488,26 @@ fsevents@^1.2.7:
     bindings: ^1.5.0
     nan: ^2.12.1
   checksum: e70509558b5f49ce9dfacb8f9e2848c6e6751a61966027789561145a9c4ae9ba4c6b28b531bc8b4ae52fdd2d4c90a3bf314e6794717e51838b27910bb41ce588
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@^1.2.7#builtin<compat/fsevents>":
+"fsevents@patch:fsevents@^1.2.7#~builtin<compat/fsevents>":
   version: 1.2.13
-  resolution: "fsevents@patch:fsevents@npm%3A1.2.13#builtin<compat/fsevents>::version=1.2.13&hash=11e9ea"
+  resolution: "fsevents@patch:fsevents@npm%3A1.2.13#~builtin<compat/fsevents>::version=1.2.13&hash=18f3a7"
   dependencies:
     bindings: ^1.5.0
     nan: ^2.12.1
-  checksum: 7bc048c164eb72f91b18ba7cd2ba30679a0afe57e9cd6352eac4bdbc4ddd4ca2ea98674d0bd3a80e96427469adc433c13532494b36aea40fceab36e198982182
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
-"fsevents@patch:fsevents@~2.3.2#builtin<compat/fsevents>":
+"fsevents@patch:fsevents@~2.3.2#~builtin<compat/fsevents>":
   version: 2.3.2
-  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#builtin<compat/fsevents>::version=2.3.2&hash=11e9ea"
+  resolution: "fsevents@patch:fsevents@npm%3A2.3.2#~builtin<compat/fsevents>::version=2.3.2&hash=18f3a7"
   dependencies:
     node-gyp: latest
-  checksum: 7b25d9251aefe433d508a0eb614217f0495ae05a9e8af15f7dbf9998e08c4e675acd1cf32361e0fcf71d917d9e8c4b76301fdc72a1ec1105a3ea0994f5e15a8d
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
@@ -6393,6 +6517,7 @@ fsevents@~2.3.2:
   dependencies:
     node-gyp: latest
   checksum: a1883f4ca12b8b403ec528f1a4cb312b0877eacd24719da535cabea78d6fdd78530e3538bdba590a1c0f6c295128f964a89182621885296353a44dcfa4f9db53
+  conditions: os=darwin
   languageName: node
   linkType: hard
 
@@ -6569,7 +6694,7 @@ fsevents@~2.3.2:
     vue: ^2.6.11
     vue-axios: ^2.1.5
     vue-clipboard2: ^0.3.1
-    vue-codemirror: ^4.0.6
+    vue-codemirror: ^5.0.0
     vue-eslint-parser: ^7.6.0
     vue-infinite-loading: ^2.4.5
     vue-infinite-scroll: ^2.0.2
@@ -11479,23 +11604,23 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.10.1#builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#builtin<compat/resolve>, resolve@patch:resolve@^1.13.1#builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#builtin<compat/resolve>, resolve@patch:resolve@^1.8.1#builtin<compat/resolve>":
+"resolve@patch:resolve@^1.10.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.10.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.13.1#~builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#~builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#~builtin<compat/resolve>, resolve@patch:resolve@^1.8.1#~builtin<compat/resolve>":
   version: 1.20.0
-  resolution: "resolve@patch:resolve@npm%3A1.20.0#builtin<compat/resolve>::version=1.20.0&hash=3388aa"
+  resolution: "resolve@patch:resolve@npm%3A1.20.0#~builtin<compat/resolve>::version=1.20.0&hash=07638b"
   dependencies:
     is-core-module: ^2.2.0
     path-parse: ^1.0.6
-  checksum: c4a515b76026806b5b26513fc7bdb80458c532bc91c02ef45ac928d1025585f93bec0b904be39c02131118a37ff7e3f9258f1526850b025d2ec0948bb5fd03d0
+  checksum: 8/a0dd7d16a8e47af23afa9386df2dff10e3e0debb2c7299a42e581d9d9b04d7ad5d2c53f24f1e043f7b3c250cbdc71150063e53d0b6559683d37f790b7c8c3cd5
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^2.0.0-next.3#builtin<compat/resolve>":
+"resolve@patch:resolve@^2.0.0-next.3#~builtin<compat/resolve>":
   version: 2.0.0-next.3
-  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.3#builtin<compat/resolve>::version=2.0.0-next.3&hash=3388aa"
+  resolution: "resolve@patch:resolve@npm%3A2.0.0-next.3#~builtin<compat/resolve>::version=2.0.0-next.3&hash=07638b"
   dependencies:
     is-core-module: ^2.2.0
     path-parse: ^1.0.6
-  checksum: a36d174b5e1b72eb9d05f2457fde2e91a4954f4480ee693681eca3a423978304d6232443726384ebf54fc4039f1ec8da7e8731383aab4c11704d157d5bcf5031
+  checksum: 8/21684b4d99a4877337cdbd5484311c811b3e8910edb5d868eec85c6e6550b0f570d911f9a384f9e176172d6713f2715bd0b0887fa512cb8c6aeece018de6a9f8
   languageName: node
   linkType: hard
 
@@ -12631,6 +12756,13 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
+"style-mod@npm:^4.0.0, style-mod@npm:^4.1.0":
+  version: 4.1.2
+  resolution: "style-mod@npm:4.1.2"
+  checksum: 8/7c5c3e82747f9bcf5f288d8d07f50848e4630fe5ff7bfe4d94cc87d6b6a2588227cbf21b4c792ac6406e5852293300a75e710714479a5c59a06af677f0825ef8
+  languageName: node
+  linkType: hard
+
 "stylehacks@npm:^4.0.0":
   version: 4.0.3
   resolution: "stylehacks@npm:4.0.3"
@@ -13550,13 +13682,19 @@ resolve@^2.0.0-next.3:
   languageName: node
   linkType: hard
 
-"vue-codemirror@npm:^4.0.6":
-  version: 4.0.6
-  resolution: "vue-codemirror@npm:4.0.6"
+"vue-codemirror@npm:^5.0.0":
+  version: 5.1.0
+  resolution: "vue-codemirror@npm:5.1.0"
   dependencies:
-    codemirror: ^5.41.0
-    diff-match-patch: ^1.0.0
-  checksum: 8ac7ee2ce9a68a623345082feb4c4be3eb56d8971a487329edac5c0118a944749adeb6d587a74caa7b02575a67b2e18b5a448e0d7fabc99090d99a7845986818
+    "@codemirror/commands": 6.x
+    "@codemirror/language": 6.x
+    "@codemirror/state": 6.x
+    "@codemirror/view": 6.x
+    codemirror: 6.x
+    csstype: ^2.6.8
+  peerDependencies:
+    vue: 3.x
+  checksum: 8/6eeee0dfee3352cb1dbf9dc822f8f2ebc64413760abc12bcc91fae23ddeed1086585add2d0591a491d1b03c5393361b87db6d1af4a934445da2cd855017777f2
   languageName: node
   linkType: hard
 
@@ -13738,6 +13876,13 @@ resolve@^2.0.0-next.3:
   version: 2.6.14
   resolution: "vue@npm:2.6.14"
   checksum: 542787dc830efc5cb8285a8046bba5a81e6f952e70e4e1a308cc8d51c68f152fd02da5edbd47b6a14908437d76fdee048aa3f64341d4777fb37ce231e2d845df
+  languageName: node
+  linkType: hard
+
+"w3c-keyname@npm:^2.2.4":
+  version: 2.2.8
+  resolution: "w3c-keyname@npm:2.2.8"
+  checksum: 8/95bafa4c04fa2f685a86ca1000069c1ec43ace1f8776c10f226a73296caeddd83f893db885c2c220ebeb6c52d424e3b54d7c0c1e963bbf204038ff1a944fbb07
   languageName: node
   linkType: hard
 
