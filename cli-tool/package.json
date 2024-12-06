@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/tks18/gindex-v4#readme",
   "dependencies": {
-    "axios": "^0.21.0",
+    "axios": "^1.7.8",
     "boxen": "^4.2.0",
     "chalk": "^4.1.0",
     "clear": "^0.1.0",
